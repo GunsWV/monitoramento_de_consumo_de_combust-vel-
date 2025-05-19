@@ -12,9 +12,9 @@ consumo_medio = distancia_km / quant_combustivel_gasto_litros
 
 print(f"o consumo médio do seu veículo é: {consumo_medio}")
 
-if consumo_medio > 8.0:
+if consumo_medio < 8.0:
     print("Seu veículo tem um alto consumo 🚨")
 elif 8.0 < consumo_medio < 12.0:
     print("Seu veículo tem um consumo moderado⚠️")
-elif consumo_medio < 12.0:
+else: 
     print("Seu veículo tem um consumo econômico! 🚗💨")
